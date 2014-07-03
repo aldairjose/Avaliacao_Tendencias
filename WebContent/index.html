@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html>
+<script src="js/main.js"></script>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="css/padrao.css">
 <title>Insert title here</title>
 </head>
 <body>
+<div class="container">
+<form name="form" action="" method="get">
+<br>
+		Nome:	
+		<input id="nome" name="nome" type="text" />	<br>
+	
+		Idade:	
+		<input id="idade" name="idade" type="text" value="" />	<br>
+	
+		Sexo:
+		
+		Feminino:<input name="sexo" type="radio" value="Feminino" />
+		Masculino:<input name="sexo" type="radio" value="Masculino" />
+		<br><br>
+		Cores:
+		
+		<br>
+		<select id="cores">
+		<option value="rosa">Rosa</option>
+			<option value="verde">Verde</option>
+			<option value="branco">Branco</option>
+			<option value="preto">Preto</option>
+			<option value="azul">Azul</option>
+			<option value="amarelo">Amarelo</option>
+			<option value="vermelho">Vermelho</option>
+				
+		</select>
 
+		<br><br><br>
+		<button type="button" onclick="addCartao()">Adicionar Cartão</button>
+	</form>
+
+	<div class="img">		
+			<img alt="mascasculino" src="img/masc.jpg" align="center">
+			
+		</div>
+
+		<div class="img">
+			<img alt="feminina" src="img/fem.jpg" align="left">
+		
+			</div>
+		</div>
+
+	
 </body>
 </html>
